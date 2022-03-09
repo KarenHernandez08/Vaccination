@@ -1,0 +1,282 @@
+/* MENU BAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: ffffff;
+  }
+  
+ li {
+    font-family: Arial;
+    float: right;
+  }
+  
+li a {
+    display: block;
+    color: rgb(61,61,61);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 2cm;
+}
+  
+ 
+li a:hover {
+    /*background-color:rgb(49, 115, 237);*/
+    background:linear-gradient(to bottom, #1354cd 25%, #5972a7 100%);
+    border-radius: 10%;
+}
+
+ul h1{
+     float: left;
+     color: rgb(19, 84, 205);
+     font-family: Arial;
+     font-size: 120%;
+     margin-left: 3cm;
+}
+ /*imagen de lado izquierdo*/
+
+.section1 img {
+    position: relative;
+    width: 700px;
+    height:700px;
+    overflow: hidden;
+    float: right;
+} 
+
+/*Aqui empieza a dar estilo al texto de  fiht virus y al parrafo*/
+.contenedor {
+    position: absolute;
+    top: 80px;
+    width: 600px;
+    height: 700px;
+    margin-left: 3cm;
+}
+
+.titulo{
+    color: rgb(9, 38,93);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 350%;
+    text-align: justify;
+  
+    
+}
+.contenedor p{
+    color: rgb(61,61,61);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    text-align: justify;
+}
+
+
+/* Aqui le damos estilo a los iconos y texto de best protection y selected vaccines*/
+.iconos {
+    width: 365px;
+    height: 100px;
+   } 
+.iconos ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+.iconos li img{
+ width: .5cm;
+ height: .5cm;
+ float: left;
+ margin-left: .5cm;
+}
+
+.iconos li {
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+}
+
+
+/* Le damos estilo al titulo schedule your vaccinations y al logo */
+.schedule{
+  width: 365px;
+  height: 20px;
+  
+} 
+
+.schedule ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.schedule li img{
+  width: .75cm;
+  height: .75cm;
+  float:left;
+  
+}
+.schedule li {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+
+/* Aqui creamos las cajas donde va a ir la información de location, date, vaccine type y el icono*/
+.cajas{
+  background-color: antiquewhite;
+  opacity: .90;
+  width: 850px;
+  height: 100px;
+}
+.cajas img{
+  width: .5cm;
+  height: .5cm;
+  float:left;
+}
+.cajas p{
+  font-size: .6cm;
+  color: #09265d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cajas h3{
+  font-size: .4cm;
+  color:rgb(61,61,61);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#caja-1 {
+  float: left;
+  width: 220px;
+  height: 100px;
+  margin: 5px;
+  
+ }
+ 
+ #caja-4 {
+  float: left;
+  width: 150px;
+  height: 100px;
+  margin: 5px;
+ 
+ } 
+
+
+ /*Estilo al boton de submit*/
+ .myButton {
+ 
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #0e45aa 5%, #09265d 100%);
+	background-color:#0e45aa;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #09265d 5%, #0e45aa 100%);
+	background-color:#09265d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*Aqui comienza el estilo de las imagenes de las marcas de las vacunas */
+.vacunas{
+    position: absolute;
+    top: 710px;
+    width: 1200px;
+    height: 200px;
+    margin-left: 3cm;
+
+}
+.vacunas img{
+  opacity: .5;
+  width: 200px;
+  height: 200px;
+}
+#caja1 {
+  float: left;
+  width: 300px;
+  height: 200px;
+  
+ }
+ 
+/*Estilo al texto de why should I vaccine y parrafo*/
+ .why{
+  position: absolute;
+  top: 1000px;
+  width: 1200px;
+  height: 200px;
+  margin-left: 3cm;
+
+}
+.why h2{
+  color: rgb(9, 38,93);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 350%;
+  text-align: justify;
+
+  
+}
+.why p{
+  color: rgb(61,61,61);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  text-align: justify;
+}
+
+/*Estilo a los 4 beneficios de la vacuna*/
+.cards{
+  position: absolute;
+  top:1350px;
+  width: 1200px;
+  height: 200px;
+  margin-left: 3.5cm;
+
+}
+.cards img{
+  width: 1.5cm;
+  height: 1.5cm;
+  border-radius: .1cm;
+}
+.cards h2{
+  color: rgb(9, 38,93);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  text-align: justify;
+
+}
+.cards p{
+  color: rgb(61,61,61);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  text-align: justify;
+}
+#card1 {
+  float: left;
+  width: 270px;
+  height: 300px;
+  margin: 10px;
+  box-shadow: 15px 5px 10px #48529944; /*esto le da la sombra a la carta*/
+
+ }
+
+
+/* Comenzamos con la sección 2 donde esta la otra imagen*/
+.section2 img {
+  position: relative;
+  top:1000px;
+  width: 700px;
+  height:700px;
+  overflow: hidden;
+  float: left;
+} 
