@@ -35,7 +35,7 @@ ul h1{
      font-size: 120%;
      margin-left: 3cm;
 }
- /*imagen de lado izquierdo*/
+ /*imagen de lado derecho*/
 
 .section1 img {
     position: relative;
@@ -280,3 +280,97 @@ ul h1{
   overflow: hidden;
   float: left;
 } 
+
+/*el titulo del contenedor y el parrafo*/
+.container{
+  position: absolute;
+  top: 1730px;
+  width: 600px;
+  height: 700px;
+  margin-left: 20cm;
+  
+}
+.container h2{
+  color: rgb(9, 38,93);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  text-align: justify;
+
+}
+.container p{
+  color: rgb(61,61,61);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 140%;
+  text-align: justify;
+
+}
+/*Aqui empieza la lista desplegable*/
+.container2 {
+  margin-bottom:10px;  
+}
+.container2 input {
+  display:none;
+}
+.container2 label {
+  display:block;
+  height:30px;
+  line-height:30px;
+  font-weight:bold;
+  text-transform:uppercase;
+  color: rgb(9, 38,93);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  text-align: justify;
+}
+
+.container2 label::after {
+  content:"+";
+  display:inline-block;
+  height:30px;
+  width:30px;
+  background:#09265d;
+  color:White;
+  text-align:center;
+  margin-right:10px;
+}
+.container2 div {
+  display:none;
+  padding-top:5px;
+}
+.container2 input:checked ~ label::after {
+  content:"-";
+  background:#09265d;
+}
+.container2 input:checked ~ div {
+  display:block;
+}
+
+.container2 img{
+    width: 1cm;
+    height:1cm;
+    float: left;
+    padding-top: 15cm;
+}
+
+
+.container3 {
+  color: rgb(61,61,61);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  text-align: justify;
+
+}
+
+
+/* le damos estilo a la imagen del contenedor de contacto de lado derecho*/
+
+.contacto img {
+  top: 1200px;
+  position: relative;
+  width: 700px;
+  height:700px;
+  overflow: hidden;
+  float: right;
+}
+
+
