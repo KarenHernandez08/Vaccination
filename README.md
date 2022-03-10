@@ -8,3 +8,6 @@ Tomando la idea pero no igual a la página esto es simplemente práctica, para s
 
 ![](https://github.com/KarenHernandez08/Vaccination/blob/main/imagenes/index1.PNG)
 ![](https://github.com/KarenHernandez08/Vaccination/blob/main/imagenes/index2.PNG)
+![](https://github.com/KarenHernandez08/Vaccination/blob/main/imagenes/index3.PNG)
+![](https://github.com/KarenHernandez08/Vaccination/blob/main/imagenes/index4.PNG)
+![](https://github.com/KarenHernandez08/Vaccination/blob/main/imagenes/index5.PNG)
