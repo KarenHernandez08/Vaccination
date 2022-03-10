@@ -1,92 +1,137 @@
-/*Aqui empieza a dar estilo al texto de contact*/
-.container4{
-    position: absolute;
-    top: 2600px;
-    width: 600px;
-    height: 800px;
-    margin-left: 3cm;
-  }
+
+
+/*pie de paágina y el html*/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
   
-  .container4 h2{
-    color: rgb(9, 38,93);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 200%;
-    text-align: justify;
-    
-  }
-  .container4 p{
-      color: rgb(61,61,61);
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 140%;
-      text-align: justify;
-    
-  }
-  /* LAS CAJAS DEL CONTACTO*/
-  .contacard{
-    top: 2000px;
-    
-    
-    width: 500px;
-    height: 500px;
-   
-  }
-  .contacard img{
-    top: 0cm;
-    width: 1.5cm;
-    height: 1.5cm;
-    float:left;
-    border-radius:.5em;
-    box-shadow: 15px 5px 10px #48529944;
-  }
-  .contacard h3{
-    font-size: 150%;
-    color: #09265d;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .contacard p{
+  html {
     font-size: 100%;
-    color:rgb(61,61,61);
-    font-family: Arial, Helvetica, sans-serif;
+  }
   
+  body {
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    align-items: start;
+    min-height: 150vh;
+  }
+  
+  .footer {
+    margin-top: 50cm;
+    margin-left: 3cm;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+
+  .footer > * {
+    flex:  1 25000%;
+  }
+  
+  .footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+  }
+  
+  .footer__logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+   
+    font-size: 1.5rem;
+    color: rgb(9, 38,93);
+    font-size: 120%;
+  }
+  
+  .footer__addr h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(19,84,205);
+    font-size: 120%;
+  }
+  
+  .nav__title {
+    font-weight: 400;
+    font-size: 15px;
   }
   
   
-  #call {
-    float: left;
-    width: 220px;
-    height: 200px;
-    margin: 5px;
-    box-shadow: 15px 5px 10px #48529944;
-    
-    
-   }
-   
-   #chat{
-    float: right;
-    width: 220px;
-    height: 200px;
-    margin: 5px;
-    box-shadow: 15px 5px 10px #48529944;
-   
-   } 
-   #videocall{
-    position: relative;
-    top: 50px; 
-    float: left;
-    width: 220px;
-    height: 200px;
-    margin: 5px;
-    box-shadow: 15px 5px 10px #48529944;
-   
-   } 
-   #message{
-    position: relative;
-    top: 50px;
-    float: right;
-    width: 220Px;
-    height: 200px;
-    margin: 5px;
-    box-shadow: 15px 5px 10px #48529944;
-   
-   } 
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
   
+  .footer li {
+    line-height: 2em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer__nav {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9, 38,93);
+    
+    font-size: 120%;
+    display: flex;
+  flex-flow: row wrap;
+  }
+  
+  .footer__nav > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+  }
+  
+  .nav__ul a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(19,84,205);
+    font-size: 80%;
+    
+  }
+  
+  
+  
+  .legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(9, 38,93);
+  }
+    
+  .legal__links {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  @media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+      flex: 1;
+    }
+    
+    .nav__item--extra {
+      flex-grow: 2;
+    }
+    
+    .footer__addr {
+      flex: 1 150px;
+    }
+    
+    .footer__nav {
+      flex: 2 0px;
+    }
+  }
