@@ -323,6 +323,7 @@ ul h1{
   text-align: justify;
 }
 
+
 .container2 label::after {
   content:"+";
   display:inline-block;
@@ -365,12 +366,12 @@ ul h1{
 /* le damos estilo a la imagen del contenedor de contacto de lado derecho*/
 
 .contacto img {
-  top: 1200px;
+  top: 1900px;
   position: relative;
-  width: 700px;
-  height:700px;
+  width: 600px;
+  height:600px;
   overflow: hidden;
   float: right;
+  
 }
-
 
